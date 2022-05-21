@@ -44,7 +44,7 @@ data_id = None
 def convert(cookie):
 	cookies = {"cookie":cookie}
 	res = requests.Session().get('https://business.facebook.com/business_locations', headers = {
-		'user-agent'	:	'Mozilla/5.0 (Linux; Android 8.1.0; MI 8 Build/OPM1.171019.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.86 Mobile Safari/537.36',
+		'user-agent'	:	'Mozilla/5.0 (Linux; Android 11; V2043_21) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.101 Mobile Safari/537.36',
 		'referer'	:	'https://www.facebook.com/',
 		'host'	:	'business.facebook.com',
 		'origin'	:	'https://business.facebook.com',
